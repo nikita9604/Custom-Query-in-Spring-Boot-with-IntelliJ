@@ -30,14 +30,14 @@ To craete Custom Queries in Spring Boot with IntelliJ over a MySQL Database.
 ##### Patient Repository
   * Get only the distinct selected column pairs <name, age> from Patient
   * Get only the distinct selected column pairs <name, age> from Patient whose age>30
-  * Get all Patient Info through age entered by user **(Named Query)
-  * Get all Patient Info through name only entered by user **(Criteria API)
-  * Get all Patient Info through name & age entered by user **(Criteria API)
+  * Get all Patient Info through age entered by user **(Named Query)**
+  * Get all Patient Info through name only entered by user **(Criteria API)**
+  * Get all Patient Info through name & age entered by user **(Criteria API)**
 ##### Doctor Repository
   * Get only the distinct selected column pairs <dname, specs> from Doctor
-  * Get all Doctor entries through specified specs by user **(Dynamic query - position parameter binding)
-  * Get all Doctor entries through specified specs by user **(Dynamic query - named parameter binding)
-  * Get all Doctor entries through specified specs by user **(Native query / SQL)
+  * Get all Doctor entries through specified specs by user **(Dynamic query - position parameter binding)**
+  * Get all Doctor entries through specified specs by user **(Dynamic query - named parameter binding)**
+  * Get all Doctor entries through specified specs by user **(Native query / SQL)**
 ##### Report Repository
   * Get all list of Report entries for specified test by user (user entry)
   * Get list of different attributes/columns taken from combination of all 3 entities. (JOIN)
